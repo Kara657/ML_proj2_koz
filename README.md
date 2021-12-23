@@ -15,7 +15,7 @@ This file is used for image augmentation which simply rotates images and saves i
 ##### "run.py"
 This is the file that can be used to produce the final submission file based on our pixelwise CNN model.
 
-Beside the codes, we have folders: training includes original images and corresponding groundtruths. testing includes the original testing images and testing_masks includes mask images of testing predictions which are used to produce submission file.
+Beside the codes, we have folders: testing includes the original testing images and testing_masks includes mask images of testing predictions which are used to produce submission file.
 ### How to run the code
 You can simply run the run.py, which produces submission csv file from testing prediction masks. Note: If you downloaded model parameters, you can comment out the first line and use the restored model to produce mask images of testing predictions.
 
