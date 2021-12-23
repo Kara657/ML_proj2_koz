@@ -4,7 +4,7 @@ Road Segmentation on satellite images
 ### Structure of Code
 
 ##### "pixelwise_model.py"
-This is our final CNN model. The code trains a new model or restores a saved model. You can simply change RESTORE_MODEL to False to train the model again. The code also runs prediction on test set and produces mask images. You can comment out corresponding lines to run prediction on training and validation.
+This is our final CNN model. The code trains a new model or restores a saved model. You can simply change RESTORE_MODEL to False to train the model again. The code also runs prediction on test set and produces mask images. You can comment out corresponding lines to run prediction on training and validation. The code is a modified version of tf_aerial_images.py.
 
 ##### "mask_to_submission.py"
 This file produces csv file from mask images of testing predictions
