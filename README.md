@@ -17,7 +17,7 @@ This is the file that can be used to produce the final submission file based on 
 
 Beside the codes, we have folders: training includes augmented images and corresponding groundtruths. testing includes the testing images to produce submission file. Images in both of these files have the size 512x512.
 ### How to run the code
-You can simply run the run.py, which produces testing prediction masks by restoring the model and creates submission csv file.
+You can simply run the run.py, which produces submission csv file from testing prediction masks. Note: If you downloaded model parameters, you can comment out the first line and use the restored model to produce testing prediction masks.
 
 ### Warnings
 The codes was tested with TensorFlow 1.13.2 and python version of 3.7.0. Due to size limitations of github you need to download model parameters from drive as mentioned above.
